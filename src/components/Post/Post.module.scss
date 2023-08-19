@@ -1,0 +1,19 @@
+.post-group {
+  @apply bg-white flex flex-col p-5 rounded-md shadow-[#13131F01/20] w-[900px] gap-4 font-lexendDeca shadow-md cursor-pointer;
+
+  &__headerline {
+    @apply flex flex-row justify-between;
+  }
+
+  &__date {
+    @apply text-dark-20 text-lg font-[400] text-sm;
+  }
+
+  &__title {
+    @apply text-dark-10 text-2xl font-[500];
+  }
+
+  &__description {
+    @apply text-dark-20 text-lg font-[400];
+  }
+}
