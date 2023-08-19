@@ -1,0 +1,7 @@
+.input-group {
+  @apply flex w-full items-center gap-4 p-4 bg-white/20 rounded-md shadow-sm;
+
+  &__input{ 
+    @apply bg-transparent text-white placeholder:text-white text-base;
+  }
+}

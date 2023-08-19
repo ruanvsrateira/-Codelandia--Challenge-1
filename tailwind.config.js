@@ -1,11 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [],
-  theme: {
+  theme: {  
     extend: {
       fontFamily: {
-        'lexendDeca': 
-        ['LexendDeca', 'sans-serif']
+        'lexendDeca': ['LexendDeca', 'sans-serif']
       },
       colors: {
         'brand': '#574AE8',
@@ -19,9 +18,10 @@ export default {
         'support-3': '#FFCE52',
         'support-4': '#F03D3D',
         'support-5': '#E0E0E0',
-      }
+      },
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 
