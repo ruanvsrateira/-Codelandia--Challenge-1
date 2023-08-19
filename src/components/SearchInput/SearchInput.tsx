@@ -1,5 +1,5 @@
 import styles from "./SearchInput.module.scss";
-import { FaSearch } from "react-icons/fa";
+import { AiOutlineSearch } from "react-icons/ai";
 
 interface SearchInputProps {
   placeholder: string;
@@ -8,7 +8,7 @@ interface SearchInputProps {
 export const SearchInput = ({ placeholder }: SearchInputProps) => {
   return (
     <div className={styles["input-group"]}>
-      <FaSearch fill="white" size={20} />
+      <AiOutlineSearch fill="white" size={30} />
       <input
         className={styles["input-group__input"]}
         placeholder={placeholder}
