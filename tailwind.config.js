@@ -2,6 +2,7 @@
 export default {
   content: [],
   theme: {  
+    
     extend: {
       fontFamily: {
         'lexendDeca': ['LexendDeca', 'sans-serif']
@@ -20,9 +21,11 @@ export default {
         'support-4': '#F03D3D',
         'support-5': '#E0E0E0',
       },
+      screens: {
+        'sm': '400px'
+      },
     },
   },
-  plugins: [
-  ],
+  plugins: [],
 }
 
