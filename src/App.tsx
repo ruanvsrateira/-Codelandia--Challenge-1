@@ -8,7 +8,7 @@ function App() {
       <header className={styles["header-group"]}>
         <div className={styles["header-group__container"]}>
           <div>
-            <h1>Codelandia</h1>
+            <h1>Codelândia | Challenge</h1>
             <h1>blog</h1>
           </div>
           <SearchInput placeholder="Pesquise no blog" />
