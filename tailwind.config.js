@@ -1,8 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ['index.html', './src/**/*.{html,js,tss,jsx,tsx}'],
   theme: {  
-    
     extend: {
       fontFamily: {
         'lexendDeca': ['LexendDeca', 'sans-serif']
