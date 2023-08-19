@@ -1,0 +1,22 @@
+.header-group {
+  @apply bg-gradient-to-r from-brand to-brand-blue py-10 flex flex-col items-center;
+
+  &__container {
+    @apply lg:w-[50%] flex flex-col gap-20 sm:w-[90%];
+
+    :first-child {
+      @apply flex justify-between;
+      
+      h1 {
+        @apply text-white font-lexendDeca text-2xl;
+      }    
+    }
+  }
+}
+
+.section-post-group {
+  @apply flex flex-col items-center ;
+  &__container {
+    @apply lg:w-[50%] flex flex-col items-center mt-20 gap-10 sm:w-[90%] ;
+  }
+}
