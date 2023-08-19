@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         'brand': '#574AE8',
+        'brand-blue': '#3EA1DB',
         'dark-10': '#1A202C',
         'dark-20': '#717171',
         'dark-30': '#F3F5F7',
