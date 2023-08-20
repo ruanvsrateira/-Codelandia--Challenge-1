@@ -1,5 +1,9 @@
 .input-group {
-  @apply flex w-full items-center gap-4 p-4 bg-white/20 rounded-md shadow-sm;
+  @apply flex w-full items-center gap-4 p-4 bg-white/20 rounded-md shadow-sm cursor-text;
+
+  &:hover {
+    @apply shadow-md transition-shadow;
+  }
 
   &__input{ 
     @apply w-full h-full bg-transparent text-white outline-none focus:outline-none placeholder:text-white text-lg;
