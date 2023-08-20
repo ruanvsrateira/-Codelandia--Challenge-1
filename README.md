@@ -1,27 +1,55 @@
-# React + TypeScript + Vite
+<h1>Codalândia Code Challenge#1</h1>
+<br>
+<h2><img style="height: 25px" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d1.png" />  Sobre o projeto</h2>
+<p>Resolução de Desafio de Front-end imposto que baseia-se na construção de uma interface de um blog, aonde se tem os posts feitos, podendo marcar uma curtida.Desafio disponível em <a href="https://github.com/iuricode/desafios-frontend">Codalândia Github</a></p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
+<h2><img style="height: 25px" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" /> Técnologias usadas no projeto</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[React](https://react.dev/)
 
-## Expanding the ESLint configuration
+[Typescript](https://www.typescriptlang.org/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Vite](https://vitejs.dev/)
 
-- Configure the top-level `parserOptions` property like this:
+[TailwindCSS](https://tailwindcss.com/)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+[Sass](https://sass-lang.com/)
+
+[Eslint](https://eslint.org/)
+
+[Prettier](https://prettier.io/)
+
+[Storybook](https://storybook.js.org/)
+
+[Vercel]()
+
+<br>
+
+Deploy disponível em: [codelandia-challenge1-rho.vercel.app](https://codelandia-challenge1-rho.vercel.app)
+
+<br>
+<h2><img style="height: 25px" src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png" />  Pré-requisitos: </h2>
+<li><a href="https://git-scm.com/">Git</a></li>
+<li><a href="https://nodejs.org/en/">Node.js</a></li>
+
+<br>
+
+```bash
+    # clonar repositório
+    git clone http://github.com/ruanvsrateira/https://github.com/ruanvsrateira/codelandia-challenge1.git
+
+    # Entrar no repositório
+    cd codelandia-challenge1
+
+    # Instalação de dependencias
+    npm i
+
+    # Rodar Aplicação
+    npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<hr>
+
+Desenvolvido por <a href="https://www.linkedin.com/in/ruanvsrateira" target="__blank">Ruan Victor</a>
