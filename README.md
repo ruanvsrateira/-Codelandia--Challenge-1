@@ -5,6 +5,12 @@
 
 <br>
 
+<div style="display: flex; flex-direction: column; gap: 25px">
+   <img src="./screenshots/desktop.png" width="1000px"/>
+   <img src="./screenshots/mobile.png" width="1000px" />
+</div>
+</div>
+
 <h2><img style="height: 25px" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" /> Técnologias usadas no projeto</h2>
 
 [React](https://react.dev/)
