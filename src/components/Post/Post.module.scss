@@ -1,6 +1,10 @@
 .post-group {
   @apply bg-white flex flex-col p-5 rounded-md shadow-[#13131F01/20] w-full gap-4 font-lexendDeca shadow-md cursor-pointer;
 
+  &:hover {
+    @apply shadow-lg shadow-brand/10 transition-opacity
+  }
+
   &__headerline {
     @apply flex flex-row justify-between;
   }
